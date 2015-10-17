@@ -26,7 +26,7 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: #7d0552;
   line-height: 48px;
   display: inline;
 }
@@ -49,7 +49,7 @@ h3 {
 h4 {
   font-weight: bold;
   font-size: 14px;
-  color: #4a4a4a;
+  color: rgba(0, 0, 0, 0.9);
   line-height: 17px;
 }
 
@@ -100,16 +100,16 @@ a {
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: #7d0552;
   display: none;
 }
 
-.orange {
-  background-color: #f5ae23;
+.magenta {
+  background-color: #7d0552;
 }
 
-.orange-text {
-  color: #f5ae23;
+.magenta-text {
+  color: #7d0552;
 }
 
 .white-text {
@@ -117,19 +117,18 @@ a {
   color: #fff;
 }
 
-.gray {
+.light-gray {
   background-color: #f3f3f3;
   padding-bottom: 10px;
   clear:both;
 }
 
-.dark-gray {
-  background-color: #4a4a4a;
+.gray {
+  background-color: rgba(74, 74, 74, 0.8);
 }
 
-/* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: rgba(74, 74, 74, 0.8);
 }
 
 .flex-box {
